@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Estilos generales */
+body {
+    background-color: #014421;
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #FFD700;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Botones y enlaces */
+button, a {
+    background-color: #C40000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+/* Botón volver en la esquina superior derecha */
+.volver {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Formularios */
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #222;
+    color: #FFD700;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #222;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: #C40000;
+}
+
+/* Contenedores */
+div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* Tablas para mostrar resultados */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #FFD700;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #C40000;
+    color: white;
+}
+
+td {
+    background-color: #222;
+}
+
+/* Estilos específicos de ruleta */
+.rojo {
+    color: red;
+    font-weight: bold;
+}
+
+.negro {
+    color: black;
+    font-weight: bold;
+}
+
+.verde {
+    color: green;
+    font-weight: bold;
+}
